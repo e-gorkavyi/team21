@@ -6,6 +6,7 @@ import { ReactComponent as Icon11 } from './family-with-balloons.svg';
 import { ReactComponent as Icon12 } from './father-daughter-and-mother.svg';
 import { ReactComponent as Icon14 } from './father-playing-with-son.svg';
 import { ReactComponent as Icon15 } from './father-with-children-raising-arms.svg';
+import { ReactComponent as Reload } from './reload.svg';
 
 const icons = [
 	{
@@ -51,3 +52,4 @@ const icons = [
 ];
 
 export { icons };
+export { Reload }

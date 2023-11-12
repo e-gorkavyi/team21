@@ -3,7 +3,8 @@ import { icons } from './icons';
 import styled from 'styled-components';
 import { prepareCards } from './utils/prepareCards';
 import CardsTable from './CardsTable'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
+import { Reload } from './icons';
 
 const Container = styled.div`
   display: flex;
@@ -21,19 +22,25 @@ const CardContainer = styled.div`
   gap: 8px;
 `;
 
-const H = styled.div`
-  /* margin-right: 270px; */
+const H = styled.h1`
   font-size: 40px;
 `;
 
 const HeaderContainer = styled.div`
+  min-width: 800px;
   display: flex;
   justify-content: space-evenly ;
   align-items: center;
 `;
-const ResetButton = styled.button`
-  width: 50px;
-  height: 50px;
+const ResetButton = styled.div`
+  svg {
+    width: 30px;
+    height: 30px;
+    fill: #212529
+  }
+  padding-bottom: 10px;
+  
+  cursor: pointer;
 `;
 
 function App() {
@@ -49,7 +56,7 @@ function App() {
     <Container>
       <HeaderContainer>
         <H>Moves: {turnsCount}</H>
-        <ResetButton onClick={() => handleReset()}>Reset</ResetButton>
+        <ResetButton onClick={() => handleReset()}><Reload /></ResetButton>
       </HeaderContainer>
       <CardContainer>
         <CardsTable handleSetTurns={setTurnsCount} icons={preparedIcons} />
