@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: com.memorygame.controller.SampleController
+Main-Class: org.memorygame.Application

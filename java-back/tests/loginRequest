@@ -3,5 +3,11 @@
 curl --header "Content-Type: application/json" \
   --header "Accept: application/json" \
   --request POST \
-  --data '{"email":"e.gorkavyi@gmail.com","password":"PASS"}' \
-  http://localhost:65001/login
+  --data '{"name":"Сергей Иванов"}' \
+  http://localhost:8888/gamers/create
+  
+curl --header "Content-Type: application/json" \
+  --header "Accept: application/json" \
+  --request POST \
+  --data '{"gamer_id":1, "score":50, "cellStates":["adfasdf", "wcwefwe"]}' \
+  http://localhost:8888/gamers/addscore

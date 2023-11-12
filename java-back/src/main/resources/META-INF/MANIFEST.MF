@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: com.memorygame.controller.SampleController
+Main-Class: org.memorygame.Application
 Class-Path: spring-context-5.2.12.RELEASE.jar spring-aop-5.2.12.RELEASE.
  jar lombok-1.18.30.jar jackson-module-parameter-names-2.11.3.jar HdrHis
  togram-2.1.12.jar logback-core-1.2.3.jar jul-to-slf4j-1.7.30.jar spring
