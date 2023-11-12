@@ -29,6 +29,8 @@ Memory game - это игра с карточками, которые откры
 возможность начать игру заново;
 экран поздравления с окончанием игры;
 
+![Screenshot](https://github.com/e-gorkavyi/team21/java-front/01.png)
+
 
 ### Развернуть проект локально
 Frontend:
@@ -42,4 +44,4 @@ Backend:
 
 
 ### Деплой
-https://team21.onrender.com)https://team21.onrender.com
+https://team21.onrender.com
