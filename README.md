@@ -29,9 +29,12 @@ Memory game - это игра с карточками, которые откры
 возможность начать игру заново;
 экран поздравления с окончанием игры;
 
-![Screenshot](https://github.com/e-gorkavyi/team21/tree/main/java-back/01.png)
-![Screenshot](https://github.com/e-gorkavyi/team21/tree/main/java-back/02.png)
-![Screenshot](https://github.com/e-gorkavyi/team21/tree/main/java-back/03.png)
+
+<img src="/java-back/01.png" alt="screen" title="01">
+
+<img src="/java-back/02.png" alt="screen" title="02">
+
+<img src="/java-back/03.png" alt="screen" title="03">
 
 
 ### Развернуть проект локально
