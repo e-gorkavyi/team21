@@ -10,35 +10,43 @@ import { ReactComponent as Icon15 } from './father-with-children-raising-arms.sv
 const icons = [
 	{
 		icon: <Icon5 />,
-		name: 'couple-with-baby-silhouettes-of-a-family-group'
+		name: 'couple-with-baby-silhouettes-of-a-family-group',
+		matched: false
 	},
 	{
 		icon: <Icon6 />,
-		name: 'familiar-group-of-two-children-father-and-mother'
+		name: 'familiar-group-of-two-children-father-and-mother',
+		matched: false
 	},
 	{
 		icon: <Icon8 />,
-		name: 'family-group-of-three'
+		name: 'family-group-of-three',
+		matched: false
 	},
 	{
 		icon: <Icon10 />,
-		name: 'family-silhouette'
+		name: 'family-silhouette',
+		matched: false
 	},
 	{
 		icon: <Icon11 />,
-		name: 'family-with-balloons'
+		name: 'family-with-balloons',
+		matched: false
 	},
 	{
 		icon: <Icon12 />,
-		name: 'father-daughter-and-mother'
+		name: 'father-daughter-and-mother',
+		matched: false
 	},
 	{
 		icon: <Icon14 />,
-		name: 'father-playing-with-son'
+		name: 'father-playing-with-son',
+		matched: false
 	},
 	{
 		icon: <Icon15 />,
-		name: 'father-with-children-raising-arms'
+		name: 'father-with-children-raising-arms',
+		matched: false
 	},
 ];
 

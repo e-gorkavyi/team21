@@ -10,5 +10,6 @@ export const prepareCards = (icons) => {
 	for (let i = 0; i < shuffledIcons.length; i += 4) {
 		result.push(shuffledIcons.slice(i, i + 4));
 	};
+
 	return result;
 };
