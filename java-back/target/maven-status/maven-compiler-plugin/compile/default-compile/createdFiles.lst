@@ -1,0 +1,9 @@
+org/memorygame/model/CellStateCollection.class
+org/memorygame/controller/GamerController.class
+org/memorygame/model/Gamer.class
+org/memorygame/model/CellState.class
+org/memorygame/repository/GameScoreRepository.class
+org/memorygame/Application.class
+org/memorygame/service/GamerService.class
+org/memorygame/repository/GamerRepository.class
+org/memorygame/model/GameState.class

@@ -1,0 +1,9 @@
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/Application.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/repository/GameScoreRepository.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/controller/GamerController.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/model/GameState.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/service/GamerService.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/model/CellState.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/model/Gamer.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/repository/GamerRepository.java
+/home/eg/IdeaProjects/team21/java-back/src/main/java/org/memorygame/model/CellStateCollection.java
